@@ -14,7 +14,8 @@ NAME = 0
 
 @app.route('/')
 def hello():
-    return 'hello'
+    return "hello, to get the gender's of a list of names,  " \
+           "add /gender/name1,name2,name3... to the end of the url"
 
 @app.route('/gender/<string:names>')
 def list_names(names=""):
