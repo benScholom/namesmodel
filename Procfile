@@ -1,0 +1,1 @@
+web: gunicorn namemodel:app
